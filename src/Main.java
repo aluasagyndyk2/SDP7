@@ -2,15 +2,15 @@ public class Main {
     public static void main(String[] args) {
         Streamer streamer = new Streamer("Aluk");
 
-        Viewer alice = new Viewer("Farida");
-        Viewer bob = new Viewer("Altynay");
-        Viewer charlie = new Viewer("Shugyla");
+        Viewer farida = new Viewer("Farida");
+        Viewer altyn = new Viewer("Altynay");
+        Viewer shugi = new Viewer("Shugyla");
 
-        streamer.attach(alice);
-        streamer.attach(bob);
+        streamer.attach(farida);
+        streamer.attach(altyn);
 
         streamer.startStream("Roblox");
-        streamer.attach(charlie);
+        streamer.attach(shugi);
         streamer.startStream("Minecraft");
     }
 }
