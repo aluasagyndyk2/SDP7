@@ -10,7 +10,6 @@ public class Main {
         streamer.attach(bob);
 
         streamer.startStream("Roblox");
-
         streamer.attach(charlie);
         streamer.startStream("Minecraft");
     }
